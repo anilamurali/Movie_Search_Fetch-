@@ -19,6 +19,8 @@ body{
     background-image: url(https://cdn.cbeditz.com/cbeditz/large/11614352808xogvnwo50xrgpl6jwva5qwfycofve3noyob8qptom92atycdl3ihsl7hgtghebaopzws08nl6jxfur8aziuclarajs4fwj3srkc7.png);
     border-radius: 20px;
     margin-top: 50px;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
     
 
 }
@@ -71,3 +73,50 @@ body{
     color: white;
     text-align: center;
 }
+@media screen and (max-width: 480px) {
+    
+    .input{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+    #movie{
+        width: 90%;
+        height: 40px;
+        
+    }
+    .searchbtn{
+        /* background-color: black; */
+        color: white;
+        border-radius: 10px;
+        height: 42px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+       
+    }
+    .movie_introduction{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    
+    }
+    .movie_introduction img{
+        margin-top: 7px;
+        margin-left: 5px;
+       
+    }
+    .movie_details {
+    
+        font-weight: 300;
+          width:300px ;
+          padding: 5px;
+      }
+      .movie_details h2{
+          /* text-align: center; */
+          
+          text-transform: uppercase;
+          margin-left: 30px;
+      }
+  }
