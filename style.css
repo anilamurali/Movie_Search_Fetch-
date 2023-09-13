@@ -1,0 +1,73 @@
+*{
+    font-family: 'Barlow', sans-serif;
+    color: white;
+}
+nav{
+    background-color: rgb(126, 13, 0);
+    color: white;
+}
+nav .navbar-brand{
+    font-size: 25px;
+}
+body{
+    background-color: black;
+}
+/* nav .container-fluid{
+    background-color: rgb(159, 2, 2);
+} */
+.search{
+    background-image: url(https://cdn.cbeditz.com/cbeditz/large/11614352808xogvnwo50xrgpl6jwva5qwfycofve3noyob8qptom92atycdl3ihsl7hgtghebaopzws08nl6jxfur8aziuclarajs4fwj3srkc7.png);
+    border-radius: 20px;
+    margin-top: 50px;
+    
+
+}
+.input{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+#movie{
+    width: 70%;
+    height: 40px;
+    border: white;
+    color: black;
+    border-radius: 10px;
+}
+.searchbtn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 42px;
+    width: 130px;
+    border: black;
+}
+.movie_introduction{
+    display: flex;
+    flex-direction: row;
+
+}
+.movie_introduction img{
+    margin-top: 15px;
+    margin-left: 15px;
+   
+}
+.movie_details {
+    
+  font-weight: 300;
+    width:350px ;
+    padding: 10px;
+}
+.movie_details h2{
+    /* text-align: center; */
+    
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.movie_details ul{
+    list-style: none;
+}
+.search p{
+    color: white;
+    text-align: center;
+}
