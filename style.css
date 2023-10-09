@@ -73,6 +73,12 @@ body{
     color: white;
     text-align: center;
 }
+#result{
+    display: none;
+}
+#spinner{
+    display: none;
+}
 @media screen and (max-width: 480px) {
     
     .input{
@@ -120,3 +126,4 @@ body{
           margin-left: 30px;
       }
   }
+  
