@@ -78,6 +78,17 @@ body{
 }
 #spinner{
     display: none;
+    /* padding-left: 200px; */
+    margin-left: 280px;
+   
+    
+}
+#poster{
+    display: none;
+    
+}
+#checked{
+    color: orange;
 }
 @media screen and (max-width: 480px) {
     
